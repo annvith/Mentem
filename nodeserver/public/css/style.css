@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    display: flex;
+    margin-top: 10px;   
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.chat-bot {
+    margin: 2rem auto;
+    position: relative;
+    align-self: center;
+}
+
+.content {
+    padding: 10px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #007bff;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.main-content {
+    height: 100%;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.dashboard-head {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.activities {
+    list-style: none;
+}
+
+.custom-checklist {
+    margin: 25px;
+    height: 75px;
+    border: 2px #e8e8e8 solid;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 55px;
+    font-size: 1.2rem;
+}
+
+.patient-icon {
+    margin: 20px auto;
+}
+
+.session-heading {
+    color: #007bff;
+}
+
+button.like{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	border-radius: 50%;
+	color: rgba(0,150,136 ,1);
+	background-color:rgba(38,166,154 ,0.3);
+	border-color: rgba(0,150,136 ,1);
+	border-width: 1px;
+	font-size: 15px;
+}
+
+button.dislike{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	border-radius: 50%;
+	color: rgba(255,82,82 ,1);
+	background-color: rgba(255,138,128 ,0.3);
+	border-color: rgba(255,82,82 ,1);
+	border-width: 1px;
+	font-size: 15px;
+}

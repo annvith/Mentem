@@ -1,0 +1,61 @@
+<%- include ('../partials/header') %>
+<div class="content">
+  <ul class="nav nav-pills flex-column">
+    <li class="nav-item">
+      <a class="nav-link active" href="/dashboard/doctor">Patients</a>
+    </li>
+  </ul>
+  <main class="main-content">
+    <h3 class="dashboard-head">
+      History: Ann Vithayathil
+      <hr />
+    </h3>
+    <h4 class="session-heading">Session History</h4>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h6 class="mb-0">           
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Monday, 10th March 2020
+            </button>
+          </h6>
+        </div>
+    
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            DIAGNOSIS AND MEDICINES GO HERE!
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h6 class="mb-0"> 
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Tuesday, 7th March 2020
+            </button>
+          </h6>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            DIAGNOSIS AND MEDICINES GO HERE!
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h6 class="mb-0"> 
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Saturday, 2nd March 2020
+            </button>
+          </h6>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            DIAGNOSIS AND MEDICINES GO HERE!
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<%- include ('../partials/footer') %>

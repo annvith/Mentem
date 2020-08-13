@@ -1,0 +1,25 @@
+<%- include ('../partials/header') %>
+      <div class="content">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="/dashboard/user">Activities</a>
+            <a class="nav-link" href="/dashboard/user/medicines">Medicines</a>
+          </li>
+        </ul>
+        <main class="main-content">
+          <h3 class="dashboard-head">
+            Hey there Champ! Here are your goals for today.
+          </h3>
+          <form></form>
+          <ul class="activities flex-column">
+            <% for (var i = 0; i < activities.length; i++) { %>
+            <li class="custom-checklist">
+              <input type="checkbox" class="form-check-input" id="1">
+              <%= activities[i] %>
+            </li>
+            <% } %>
+          </ul>
+        </main>
+      </div>
+<%- include ('../partials/footer') %>
+  
